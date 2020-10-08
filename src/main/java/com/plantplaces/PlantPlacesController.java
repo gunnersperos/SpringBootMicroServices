@@ -37,7 +37,7 @@ public class PlantPlacesController {
 	}
 	
 	@RequestMapping(value="/start", method=RequestMethod.GET, params= {"loyalty=blue"})
-	public String readBlue(){
+	public String readBlue(){ 
 		
 		return "start";
 	}
